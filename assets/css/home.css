@@ -1,0 +1,384 @@
+section>h2 {
+    text-align: center;
+}
+
+span {
+    color: var(--green);
+    font-weight: bold;
+}
+
+
+/* ----------------------------- */
+
+
+/* ---------header---------- */
+
+
+/* ----------------------------- */
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: var(--white);
+    padding: 1% 5%;
+    z-index: 1;
+}
+
+.nav-list {
+    gap: 20px;
+}
+
+.nav-list>li>a {
+    font-size: 18px;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+
+/* ----------------------------- */
+
+
+/* ---------first section ---------- */
+
+
+/* ----------------------------- */
+
+.first-section {
+    height: 85vh;
+    width: 100%;
+    background-image: url('../images/college-bg.jpg');
+}
+
+.first-section-mask {
+    height: 100%;
+    width: 100%;
+    padding: 15% 10%;
+    background-color: rgba(0, 0, 0, 0.701);
+    color: var(--light-gray);
+}
+
+.first-section-mask {
+    color: var(--light-gray);
+    text-align: center;
+}
+
+.first-section-mask>h1 {
+    font-size: 45px;
+}
+
+.first-section-mask>p {
+    margin-top: 2%;
+    font-size: 25px;
+    color: var(--light-gray);
+}
+
+
+/* ----------------------------- */
+
+
+/* ---------sixth section---------- */
+
+
+/* ----------------------------- */
+
+.sixth-section {
+    color: var(--white);
+    background-color: var(--dark-gray);
+    padding: var(--section-padding);
+}
+
+.sixth-section>h2 {
+    margin-bottom: 5%;
+}
+
+.sixth-section-grid {
+    grid-template-columns: 70% 1fr;
+}
+
+.sixth-section-grid-1>h3 {
+    color: var(--primary-color-darken);
+    margin: 2% 0;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.sixth-section-grid-1>p {
+    font-size: 14px;
+}
+
+.sixth-section-grid-2 {
+    padding: 2%;
+    background-color: var(--white);
+    height: 500px;
+    overflow: hidden;
+    border-radius: var(--border-radius);
+}
+
+.sixth-section-grid-2>h3 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-right: 15%;
+    font-size: 18px;
+    margin: 2% 0;
+    font-weight: 700;
+}
+
+.sixth-section-grid-2>ul>li {
+    margin: 4% 0;
+    list-style-type: disc !important;
+}
+
+.sixth-section-grid-2>ul>li>a {
+    color: var(--black)
+}
+
+
+/* ----------------------------- */
+
+
+/* ---------second section---------- */
+
+
+/* ----------------------------- */
+
+.second-section {
+    color: var(--white);
+    background-color: var(--dark-gray);
+    padding: var(--section-padding);
+}
+
+.second-section>h2 {
+    margin-bottom: 5%;
+}
+
+.second-section-grid-1 {
+    position: relative;
+    border: 3px solid var(--white);
+    border-radius: var(--border-radius);
+}
+
+.second-section-grid-1:hover {
+    backdrop-filter: blur(10px);
+}
+
+.second-section-grid-1-img>img {
+    height: 300px;
+    border-radius: var(--border-radius);
+    width: 100%;
+}
+
+.second-section-grid-1-content {
+    position: absolute;
+    bottom: 5%;
+    padding: 0 5%;
+    width: 100%;
+    background-color: var(--white);
+}
+
+.second-section-grid-1-content>h4 {
+    color: var(--primary-color);
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+/* ----------------------------- */
+
+
+/* ---------third section---------- */
+
+
+/* ----------------------------- */
+
+.third-section {
+    color: var(--white);
+    background-color: var(--dark-gray);
+    padding: var(--section-padding);
+}
+
+.third-section>h2 {
+    margin-bottom: 5%;
+}
+
+.third-section-grid-1 {
+    border-radius: var(--border-radius);
+    background-color: vaR(--white);
+    width: 100%;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 10px 0;
+    text-align: center;
+    color: var(--primary-color);
+    margin: 2%;
+}
+
+.third-section-grid.grid-3 {
+    grid-gap: 1%;
+}
+
+
+/* ----------------------------- */
+
+
+/* ---------fourth section---------- */
+
+
+/* ----------------------------- */
+
+.fourth-section {
+    color: var(--white);
+    background-color: var(--dark-gray);
+    padding: var(--section-padding);
+}
+
+.fourth-section>h2 {
+    text-align: center !important;
+    margin-bottom: 5%;
+}
+
+
+/* ----------------------------- */
+
+
+/* ---------fifth section---------- */
+
+
+/* ----------------------------- */
+
+.fifth-section {
+    color: var(--white);
+    background-color: var(--dark-gray);
+    padding: var(--section-padding);
+    width: 100%;
+    height: max-content;
+    padding-bottom: 10%;
+}
+
+.fifth-section>h2 {
+    margin-bottom: 5%;
+}
+
+.fifth-section-grid-1 {
+    background-color: vaR(--medium-gray);
+    color: var(--dark-gray);
+    border: 1px solid var(--white);
+}
+
+.fifth-section-grid-1-img>img {
+    height: 200px;
+    width: 100%;
+}
+
+.fifth-section-grid-1-content {
+    padding: var(--section-padding);
+}
+
+.fifth-section-grid-1-content>h2 {
+    margin-bottom: 4%;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.fifth-section>button {
+    float: right;
+    margin-top: 2%;
+}
+
+
+/* ----------------------------- */
+
+
+/* ---------fifth section---------- */
+
+
+/* ----------------------------- */
+
+.seventh-section {
+    color: var(--white);
+    background-color: var(--dark-gray);
+    padding: var(--section-padding);
+}
+
+.seventh-section>h2 {
+    margin-bottom: 5%;
+}
+
+.seventh-section-grid-yt>h3 {
+    background-color: var(--dark-gray);
+    text-align: center;
+}
+
+.seventh-section-grid-ig>h3 {
+    background-color: var(--dark-gray);
+    text-align: center;
+}
+
+.seventh-section-grid-ig>img {
+    margin: 5% 0;
+    width: 560px;
+    height: 315px;
+}
+
+.seventh-section-grid-yt>iframe {
+    margin: 5% 0;
+}
+
+
+/* ----------------------------- */
+
+
+/* ---------footer---------- */
+
+
+/* ----------------------------- */
+
+.footer {
+    color: var(--white);
+    background-color: var(--pure-black);
+    padding: var(--section-padding);
+    padding-bottom: 2%;
+}
+
+.footer-logo {
+    margin-bottom: 4%;
+}
+
+.footer-grid {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-grid>ul>li {
+    margin-top: 2%;
+}
+
+.footer-grid>ul>li>a {
+    color: var(--primary-color);
+}
+
+.footer-bottom {
+    padding: 2% 5%;
+    padding-top: 5%;
+}
+
+.footer-bottom>ul {
+    gap: 40px;
+}
+
+.footer-bottom>ul>li>a {
+    color: var(--white);
+    font-size: 25px;
+    padding-bottom: 0;
+}
+
+.footer>p {
+    margin: 2% auto;
+    margin-bottom: 0;
+    width: 80%;
+    text-align: center;
+    font-size: 14px;
+    color: var(--green);
+}

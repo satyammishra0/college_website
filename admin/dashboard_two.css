@@ -1,0 +1,57 @@
+.first-board-grid-left>ul>li>button>a {
+    padding: 5% 0% !important;
+}
+
+.table-contrainer>table {
+    border: 1px solid var(--primary-color);
+    padding: 0 !important;
+}
+
+.table-contrainer {
+    padding: 2% !important;
+}
+
+.table-contrainer>table>thead {
+    background-color: var(--primary-color);
+    padding: 6px 0;
+    color: var(--white)
+}
+
+.table-contrainer>table>thead>tr>th {
+    color: var(--white);
+    background-color: var(--primary-color);
+    line-height: 1.4;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.table-contrainer>table>tbody>tr:nth-child(even) {
+    background-color: #ccc;
+}
+
+.table-contrainer>table>tbody>tr>td {
+    padding: 4px 6px;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.table-contrainer>table>tbody>tr>td>button {
+    padding: 5px 10px;
+    background-color: #888;
+}
+
+.table-contrainer>table>tbody>tr>td>button:nth-child(odd) {
+    margin-left: 25%;
+}
+
+.table-contrainer>table>tbody>tr>td>button>a {
+    color: var(--white)!important;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.table-contrainer>table>tbody>tr>td>button:nth-child(even) {
+    background-color: rgb(255, 109, 109);
+    color: var(--white)!important;
+}

@@ -1,0 +1,31 @@
+.first-view-events {
+    padding: 0 5%;
+    padding-bottom: 5%;
+    background-color: var(--dark-gray);
+}
+
+.first-view-events-grid {
+    grid-template-columns: 70% 1fr;
+    grid-gap: 5%;
+}
+
+.first-view-events-grid-1 {
+    color: var(--white);
+    height: max-content;
+    width: 100%;
+}
+
+.first-view-events-grid-1>img {
+    height: 410px;
+    width: 100%;
+}
+
+.first-view-events-grid-1>h1 {
+    margin: 2% 0;
+}
+
+.first-view-events-grid-1>p {
+    margin: 2% 0;
+    font-size: 18px;
+    line-height: 1.3;
+}
